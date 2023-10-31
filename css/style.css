@@ -1,5 +1,5 @@
 /*font txt*/
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,17 +7,16 @@
 }
 
 body {
-  line-height: normal;
   font-size: 16px;
   font-family: "Sora", sans-serif;
-  background-color: #E5EAF0;
+  background-color: #FAFAF9;
 }
 body .card {
   display: flex;
   flex-direction: column;
-  margin-left: 50%;
+  margin-left: 25%;
   margin-top: 164px;
-  background-color: #FAFAF9;
+  background-color: #FFFFFF;
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 16px;
@@ -33,7 +32,7 @@ body .card .content-card1 .img-card img {
 }
 body .card .content-card1 .tag-card {
   margin: 16px 0 16px 0;
-  padding: 16px 6px;
+  padding: 10px 0px;
   background-color: #E6D6FC;
   border-radius: 16px;
   width: -moz-fit-content;
@@ -50,9 +49,11 @@ body .card .content-card1 .tag-card p {
 body .card .content-card1 .title-card h2 {
   font-size: 1.125rem;
   font-weight: bolder;
+  color: #20293A;
 }
 body .card .content-card1 .txt-card {
-  line-height: normal;
+  margin-top: 8px;
+  line-height: 120%;
   width: 336px;
   margin-bottom: 20px;
 }
@@ -73,4 +74,5 @@ body .card .content-card2 .author-card p {
   margin: 0;
   color: #6C727F;
   font-size: 0.75rem;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
