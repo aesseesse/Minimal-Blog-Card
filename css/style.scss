@@ -1,0 +1,88 @@
+/*font txt*/
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height:normal;
+    font-size: 16px;
+    font-family: 'Sora', sans-serif;
+    background-color: #E5EAF0 ;
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50% ;
+        margin-top: 164px;
+        background-color: #FAFAF9;
+        width: fit-content;
+        border-radius: 16px;
+        .content-card1{
+            padding: 16px 16px 8px 16px;
+            gap: 0;
+        
+            .img-card {
+                img {
+                    border-radius: 16px;
+                    height: 152px;
+                    width: 336px;
+                }
+            }
+        
+            .tag-card {
+                margin: 16px 0 16px 0;
+                padding: 16px 6px;
+                background-color: #E6D6FC;
+                border-radius: 16px;
+                width: fit-content;
+        
+                p {
+                    padding: 0 16px 0 16px;
+                    margin: 0;
+                    line-height: 0;
+                    font-size: 0.625rem;
+                    color: #883AE1;
+                    font-weight: bolder;
+                }
+            }
+        
+            .title-card {
+                h2 {
+                    font-size: 1.125rem;
+                    font-weight: bolder;
+                }
+            }
+        
+            .txt-card {
+                line-height: normal;
+                width: 336px;
+                margin-bottom: 20px;
+                p {
+                    color: #6C727F;
+                    font-size: 0.875rem;
+                }
+            }
+        }
+        
+        .content-card2 {
+            border-top: 1px solid rgba(108, 114, 127, 0.1);
+            padding: 0 16px 20px 16px;
+            gap: 0;
+            .author-card{                
+                padding-top: 20px;
+                padding-bottom: 4px;
+
+                p{
+                    margin: 0;
+                    color: #6C727F;
+                    font-size: 0.75rem;
+                }    
+            }
+            
+        }
+    }
+    
+}
